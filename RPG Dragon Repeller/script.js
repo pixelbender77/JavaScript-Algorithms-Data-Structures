@@ -76,4 +76,4 @@ function buyHealth() {
 
 function buyWeapon() {
 
-}
+} //There is like a bug with the freeCodeCamp editor stuff or level i don't know.. it's not going i'm kind of stuck. tomorrow i'll resume
