@@ -208,6 +208,7 @@ function attack() {
     }
 }
 
+
 function getMonsterAttackValue(level) {
     const hit = (level * 5) - (Math.floor(Math.random() * xp));
     console.log(hit);
@@ -283,4 +284,8 @@ function pick(guess) {
             lose();
         }
     }
+}
+
+function randomize(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
 }
