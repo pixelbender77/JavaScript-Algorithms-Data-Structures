@@ -47,3 +47,6 @@ function addEntry() {
 }
 
 addEntryButton.addEventListener("click", addEntry);
+
+
+//There really are some days you won't do much.. just accept it.. you're human.
