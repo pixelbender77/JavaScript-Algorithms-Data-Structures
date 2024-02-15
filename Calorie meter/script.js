@@ -13,6 +13,7 @@
 //     }
 // }
 // }const calorieCounter = document.getElementById('calorie-counter');
+const calorieCounter = document.getElementById('calorie-counter');
 const budgetNumberInput = document.getElementById('budget');
 const entryDropdown = document.getElementById('entry-dropdown');
 const addEntryButton = document.getElementById('add-entry');
@@ -43,10 +44,12 @@ function addEntry() {
     id="${entryDropdown.value}-${entryNumber}-calories"
     placeholder="Calories"
   />`;
-    targetInputContainer.innerHTML += HTMLString;
+    targetInputContainer.insertAdjacentHTML('beforeend', HTMLString);
+}
+
+function getCaloriesFromInputs(list) {
+
 }
 
 addEntryButton.addEventListener("click", addEntry);
-
-
 //There really are some days you won't do much.. just accept it.. you're human.
